@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Attributes\" />
+    <Folder Include="Controllers\BusinessLogic\" />
+    <Folder Include="Data\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Models\Authentications\" />
+    <Folder Include="Models\BusinessLogic\" />
+    <Folder Include="Models\Repositories\" />
+    <Folder Include="Models\Queries\" />
+    <Folder Include="Repositories\BusinessLogic\User\" />
+    <Folder Include="Repositories\BusinessLogic\Task\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
